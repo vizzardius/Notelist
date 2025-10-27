@@ -1,0 +1,76 @@
+body{
+   text-align: center;
+   background: linear-gradient(to bottom, #ffffff, #1e90ff);
+   min-height: 60vh;
+   margin: 0;
+   background-attachment: fixed;
+   background-size: cover;
+   color: #fff;
+   font-size: 25px;
+   line-height: 18px;
+}
+.textInformation{
+   margin-top: 180px;
+}
+
+.createNotediv{
+   background-color: rgba(255, 255, 255, 0.7);
+   width: 300px;
+   min-height: 70px;
+   margin: auto;
+   border: none;
+   border-radius: 30px;
+}
+
+.newNoteText{
+   width: 200px;
+   border: black 1px dotted;
+   margin-top: 20px;
+   border-radius: 50px;
+   height: 30px;
+   padding-left: 10px;
+   font-size: 15px;
+}
+
+.newNoteButton{
+   height: 30px;
+   width: 30px;
+}
+.Note {
+   box-sizing: border-box;
+   color: black;
+   list-style: none;
+   height: 30px;
+   min-width: 150px;      
+   margin: 8px auto;     
+   padding: 20px;     
+   border-radius: 8px;   
+   background-color: white;
+   display: flex;         
+   align-items: center;
+   justify-content: space-between;
+   margin-right:20px;
+   margin-left: -15px;
+}
+.deleteNoteButton{
+   position: relative;
+   top: 1px;
+}
+
+span{
+   font-size: 20px;
+}
+.noteList{
+   padding-bottom: 5px;
+}
+
+@media (max-width:690px) {
+   h1{
+      font-size: 20px;
+   }
+   h2{
+      font-size: 16px;
+   }
+}
+@media(hover: hover){}
+
